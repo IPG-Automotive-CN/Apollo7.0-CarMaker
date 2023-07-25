@@ -1,0 +1,1015 @@
+./apollo.sh build_opt_gpu 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+cyber_monitor
+exit 
+./scripts/bootstrap_lgsvl.sh 
+./scripts/bridge.sh 
+./scripts/bootstrap_lgsvl.sh stop
+./scripts/bootstrap_lgsvl.sh 
+./scripts/bridge.sh 
+./scripts/bootstrap_lgsvl.sh stop
+exit 
+./scripts/bootstrap_lgsvl.sh
+./scripts/bridge.sh 
+./scripts/bootstrap_lgsvl.sh stop
+exit 
+./scripts/bootstrap_lgsvl.sh stop
+./scripts/bridge.sh 
+./scripts/bootstrap_lgsvl.sh 
+./scripts/bridge.sh 
+./scripts/bootstrap_lgsvl.sh stop
+exit 
+cyber_monitor
+exit 
+./scripts/bootstrap_lgsvl.sh stop
+./scripts/bootstrap_lgsvl.sh 
+./scripts/bridge.sh 
+./scripts/bootstrap_lgsvl.sh stop
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh st
+bootstrap_lgsvl.sh stop
+exit 
+cyber_monitor
+ex
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+cyber_monitor
+eix
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+ls
+bazel --help
+bazel build modules/contrib/cyber_bridge
+vi modules/contrib/cyber_bridge/client.cc 
+bootstrap.sh 
+bootstrap_lgsvl.sh 
+exit 
+bootstrap_lgsvl.sh 
+./apollo.sh build_opt_gpu
+bootstrap_lgsvl.sh 
+bridge.sh 
+exit 
+bootstrap_lgsvl.sh stop
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+cyber_launch --help
+cyber_launch start modules/drivers/gnss/launch/gnss.launch
+ls
+cd /dev/
+ls
+ls | grep novate
+ls | grep ttyU
+screen /dev/ttyUSB2
+cd ..
+ls
+cd apollo/
+cd modules/tools/sensor_calibration/
+ls
+python ins_stat_publisher.py 
+vi ins_stat_publisher.py 
+ls
+./extract_data.sh 
+exit 
+bootstrap_lgsvl.sh 
+cyber_launch start modules/localization/launch/localization.launch
+cyber_launch start modules/localization/launch/rtk_localization.launch
+cyber_launch start modules/localization/launch/msf_localization.launch
+mainboard -d /apollo/modules/localization/dag/dag_streaming_msf_localization.dag -p localization -s CYBER_DEFAULT]
+exit 
+mainboard -d /apollo/modules/localization/dag/dag_streaming_msf_localization.dag -p localization -s CYBER_DEFAULT]
+exit 
+bootstrap.sh 
+bootstrap.sh stop
+./apollo.sh build_opt_gpu
+bootstrap_lgsvl.sh 
+./apollo.sh --helo
+./apollo.sh --help
+bootstrap_lgsvl.sh stop
+./apollo.sh clean
+./scripts/apollo_clean.sh 
+./scripts/apollo_clean.sh -a
+bootstrap_lgsvl.sh 
+./apollo.sh build
+bootstrap_lgsvl.sh 
+bootstrap_lgsvl.sh stop
+exit 
+cyber_visualizer
+cyber_monitor
+ex
+exit
+cyber_launch start modules/perception/production/launch/perception.launch
+exit 
+bridge.sh 
+exit 
+cyber_launch modules/localization/launch/localization.launch 
+cyber_launch start modules/localization/launch/localization.launch 
+exit 
+bootstrap.sh 
+cyber_launch start modules/routing/launch/routing.launch
+exit 
+cyber_recorder info demo_3.5.record 
+cyber_channel
+cyber_channel list
+cyber_monitor
+cyber_channel echo /apollo/sensor/gnss/ins_stat
+cyber_channel info /apollo/sensor/gnss/ins_stat
+cyber_channel echo /apollo/sensor/gnss/ins_stat
+cyber_channel list
+cyber_channel echo /apollo/sensor/gnss/ins_stat
+cyber_channel echo /apollo/sensor/gnss/best_pose
+cyber_channel echo /apollo/sensor/gnss/imu
+cyber_channel echo /apollo/sensor/gnss/corrected_imu
+cyber_channel echo /apollo/sensor/gnss/odometry
+cyber_channel echo /apollo/canbus/chassis
+cyber_channel echo /apollo/sensor/lidar128/compensator/PointCloud2
+cyber_monitor
+exit 
+cyber_visualizer
+cyber_channel 
+exit 
+cyber_monitor
+bootstrap_lgsvl.sh 
+bootstrap_lgsvl.sh stop
+bazel build modules/contrib/cyber_bridge
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh
+cyber_monitor
+bridge.sh 
+cyber_recorder info demo.record
+cyber_recorder -a
+python3 docs/demo_guide/record_helper.py demo_3.5.record
+cyber_recorder play -f demo_3.5.record --loop
+bridge.sh 
+bootstrap.sh stop
+exit 
+cyber_monitor
+cyber_channel list 
+cyber_channel -h
+cyber_monitor
+cyber_channel hz /apollo//apollo/localization/msf_status
+cyber_channel hz /apollo//apollo/localization/msf_status/apollo/sensor/gnss/imu
+cyber_channel hz /apollo/sensor/gnss/imu
+cyber_channel hz /apollo/sensor/gnss/odometry
+cyber_channel hz /apollo/canbus/chassis
+exit
+cyber_launch start modules/tools/prediction/fake_prediction/fake_prediction.launch
+exit 
+cyber_launch start modules/tools/manual_traffic_light/manual_traffic_light.launch
+exit 
+bootstrap.sh 
+bridge.sh 
+bootstrap.sh stop
+exit 
+cyber_monitor
+exit 
+bridge.sh 
+bridge.sh \
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+exit 
+cyber_monitor
+exit 
+bootstrap_lgsvl.sh 
+bazel version 
+bridge.sh 
+bootstrap_lgsvl.sh  stop
+exit 
+cyber_launch start modules/perception/production/launch/perception.launch
+cyber_launch start modules/perception/production/launch/perception_lidar.launch
+mainboard -d /apollo/modules/perception/production/dag/dag_streaming_perception_lidar.dag -p perception_lidar -s CYBER_DEFAULT
+exit
+cyber_visualizer
+cyber_channel
+cyber_channel list
+cyber_channel echo control
+cyber_channel echo /apollo/control
+cyber_channel info /apollo/control
+exit
+cyber_monitor
+bootstrap_lgsvl.sh  stop
+exit
+bootstrap_lgsvl.sh 
+bridge.sh 
+exit
+cyber_launch start modules/perception/production/launch/perception_lidar.launch
+mainboard -d /apollo/modules/perception/production/dag/dag_streaming_perception_lidar.dag -p perception_lidar -s CYBER_DEFAULT]
+cyber_monitor
+cyber_launch start modules/perception/production/launch/perception.launch
+exit 
+bootstrap.sh stop
+exit 
+cyber_channel list
+cyber_channel info /apollo/sensor/lidar128/compensator/PointCloud2
+cyber_channel echo /apollo/sensor/lidar128/compensator/PointCloud2
+cyber_channel list
+cyber_channel echo /apollo/perception/obstacles
+cyber_channel list
+cyber_channel echo /apollo/sensor/camera/front_12mm/image
+cyber_channel echo /apollo/sensor/camera/rear_6mm/image/compressed
+cyber_launch start modules/perception/production/launch/perception.launch
+exit 
+cyber_launch modules/perception/production/launch/perception.launch 
+cyber_launch start modules/perception/production/launch/perception.launch 
+exit 
+cyber_monitor
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bridge.sh -h
+bridge.sh --help
+exit 
+cyber_monitor
+exit 
+bootstrap
+bootstrap.sh 
+bridge.sh 
+bootstrap.sh restart
+bridge.sh 
+exit 
+cyber_monitor
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+cyber_monitor
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+cyber_monitor
+exit 
+cyber_monitor
+exit 
+cyber_monitor
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bridge.sh 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+cyber_launch start modules/perception/production/launch/perception.launch 
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+cyber_monitor
+exit 
+cyber_channel list
+cyber_channel echo /apollo/sensor/lidar128/compensator/PointCloud2
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+cyber_launch start modules/perception/production/launch/perception.launch 
+exit 
+cyber_monitor
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh \
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+bootstrap_lgsvl.sh 
+mainboard -h
+mainboard -d /apollo/modules/perception/production/dag/dag_streaming_perception_lgsvl.dag 
+mainboard -d /apollo/modules/perception/production/dag/dag_streaming_perception_lidar.dag 
+mainboard -d /apollo/modules/perception/production/dag/dag_streaming_perception_camera.dag 
+cyber_launch start modules/transform/launch/static_transform.launch
+mainboard -d /apollo/modules/transform/dag/static_transform.dag 
+exit 
+bootstrap_lgsvl.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+cyber_monitor
+nvidia-smi 
+bootstrap_lgsvl.sh stop
+exit
+nvidia-smi
+exit
+cyber_monitor
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+ls
+ls | grep apollo_test
+bootstrap_lgsvl.sh 
+vi scripts/apollo_base.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+ls
+cd cyber/
+ls
+cd ..
+which cyber_lanuch
+which ls
+cyber_lanuch --help
+cyber_lanuch 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+cd ..
+ls
+cd bin/
+ls
+ls | grep cybe
+cd ..
+cd apollo/
+lw
+ls
+cd modules/
+ls
+cd node
+cd tools/
+ls
+cd ../..
+cd tools/
+ls
+cd install/
+ls
+cd ..
+cyber_bridge
+cd bazel-bin
+ls
+cd cyber/
+ls
+ls | grep cyber_
+cd com
+cd ..
+ls
+cd modules/
+ls
+cd tools/
+ls
+cd ..
+find -name 'cyber_lanuch'
+find -name 'cyber_bridge'
+cd ..
+find -name 'cyber_lanuch'
+cyber_launch start
+python --version
+cd bazel-bin
+cd ..
+bootstrap_lgsvl.sh scripts/
+bootstrap_lgsvl.sh stop
+cd bazel-bin/modules/dreamview/
+ls
+cd ../../..
+bootstrap_lgsvl.sh 
+bootstrap_lgsvl.sh stop
+exit 
+cyber_monitor
+ex
+exit
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+mainboard -p modules/perception/production/dag/dag_streaming_perception_lgsvl.dag 
+mainboard -d modules/perception/production/dag/dag_streaming_perception_lgsvl.dag 
+mainboard -p modules/perception/production/dag/dag_streaming_perception_lgsvl.dag 
+mainboard -d modules/perception/production/dag/dag_streaming_perception_lgsvl.dag 
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+cyber_monitor
+exit 
+clear
+mainboard -d modules/perception/production/dag/dag_streaming_perception_lgsvl.dag
+exit 
+
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+cyber_monitor
+exit 
+cyber_monitor
+ex
+exit 
+mainboard -d modules/perception/production/dag/dag_streaming_perception_lgsvl.dag
+exit 
+clear
+cyber_monitor
+exit
+cyber_monitor
+exit 
+mainboard -d modules/perception/production/dag/dag_streaming_perception_lgsvl.dag
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./scripts/apollo_build.sh --help
+apollo_build --help
+apollo_build.sh --help
+ls
+apollo.sh --help
+./apollo.sh --help
+./apollo.sh build transform
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+cyber_monitor
+exit 
+cyber_monitor
+exit
+cyber_monitor
+mainboard -d modules/perception/production/dag/dag_streaming_perception_lgsvl.dag
+cyber_monitor
+mainboard -d modules/perception/production/dag/dag_streaming_perception_lgsvl.dag
+exit
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bridge.sh 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit
+cyber_monitor
+cyber_visualizer
+cyber_channel -h
+cyber_channel list
+cyber_channel echo /apollo/sensor/radar/front
+mainboard -d modules/perception/production/dag/dag_streaming_perception_lgsvl.dag
+cyber_monitor
+cyber_channel list
+cyber_channel echoecho /apollo/perception/obstacles
+cyber_channel echo /apollo/perception/obstacles
+cyber_channel list
+cyber_channel echo /tf_static
+cyber_channel echo /tf
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+
+cyber_channel echo /apollo/perception/obstacles
+exit 
+cyber_channel echo /apollo/perception/obstacles
+cyber_monitor
+mainboard -d modules/perception/production/dag/dag_streaming_perception_lgsvl.dag
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+cyber_monitor
+cyber_channel echo /apollo/perception/obstacles
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+apollo.sh --help
+apollo_build.sh 
+
+apollo_build -h
+apollo_build.sh -h
+./apollo.sh --help
+./apollo.sh build perception
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh build perception
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bootstrap_lgsvl.sh stop
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh build perception
+exit 
+cyber_
+cyber_monitor
+mainboard -d modules/perception/production/dag/dag_streaming_perception_lgsvl.dag
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+cyber_monitor
+exit 
+
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh build perception
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh build perception
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh build perception
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh build perception
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh build perception
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh build perception
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh build perception
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+
+mainboard -d modules/perception/production/dag/dag_streaming_obstacle_detection.dag 
+cyber_monitor
+cyber_channel echo /apollo/sensor/camera/front_6mm/image
+clear
+mainboard -d modules/perception/production/dag/dag_streaming_obstacle_detection.dag 
+clear
+mainboard -d modules/perception/production/dag/dag_streaming_obstacle_detection.dag 
+clear
+mainboard -d modules/perception/production/dag/dag_streaming_obstacle_detection.dag 
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh build perception
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+mainboard -d modules/perception/production/dag/dag_streaming_obstacle_detection.dag 
+clear
+mainboard -d modules/perception/production/dag/dag_streaming_obstacle_detection.dag 
+exit 
+bootstrap_lgsvl.sh \
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+./apollo.sh build transform 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh build transform 
+bootstrap_lgsvl.sh 
+bootstrap_lgsvl.sh stop
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+mainboard -d modules/perception/production/dag/dag_streaming_obstacle_detection.dag 
+exit 
+mainboard -d modules/perception/production/dag/dag_streaming_obstacle_detection.dag 
+ex
+exit 
+cyber_monitor
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+./apollo.sh build perception 
+bootstrap_lgsvl.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh buildbuild perception 
+./apollo.sh build perception 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh build perception 
+bootstrap_lgsvl.sh
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh build perception 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+mainboard -d modules/perception/production/dag/dag_streaming_obstacle_detection.dag 
+ls
+mainboard -d modules/perception/production/dag/dag_streaming_obstacle_detection.dag 
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh build perception 
+bootstrap_lgsvl.sh start
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+exit 
+mainboard -d modules/perception/production/dag/dag_streaming_obstacle_detection.dag 
+exit 
+mainboard -d modules/perception/production/dag/dag_streaming_obstacle_detection.dag 
+cyber_launch start /apollo/modules/perception/production/launch/perception_camera.launch
+mainboard -d modules/perception/production/dag/dag_streaming_perception_camera.dag 
+exit 
+cyber_monitor
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh build perception 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh build perception 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh build transform 
+./apollo.sh build perception 
+bootstrap_lgsvl.sh 
+bridge.sh 
+cd /usr/local/cuda-11.1/
+ls
+exit 
+bootstrap_lgsvl.sh stop
+exit 
+bootstrap_lgsvl.sh 
+cyber_launch start /apollo/modules/perception/production/launch/perception_camera.launch
+mainboard -d /apollo/modules/perception/production/dag/dag_streaming_perception_camera.dag /apollo/modules/perception/production/dag/dag_motion_service.dag -p mainboard_default_30603 -s CYBER_DEFAULT
+mainboard -d /apollo/modules/perception/production/dag/dag_streaming_perception_camera.dag 
+clear
+mainboard -d /apollo/modules/perception/production/dag/dag_streaming_perception_camera.dag 
+nvidia-smi
+cd /usr/local/
+ls
+cd cuda
+ls
+cd bin
+ls
+cd ..
+cd ~
+ls
+pwd
+ls
+cd /
+ls
+cd home
+ls
+cd yil
+ls
+cd apollo
+cd /
+cd apollo/
+ls
+cd cuda-samples-11.6/
+ls
+make
+nvcc -v
+nvcc --version
+cd ..
+ls
+cd cuda-samples-11.1/
+ls
+make
+ls
+cd Samples/
+ls
+cd deviceQuery/
+ls
+./deviceQuery 
+cd /apollo/
+bootstrap_lgsvl.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh buildbuild perception 
+./apollo.sh build perception 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh build perception 
+./apollo.sh build transform 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+bootstrap_lgsvl.sh 
+bootstrap_lgsvl.sh stop
+exit 
+cyber_monitor
+exit 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh build perception 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh build perception 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+./apollo.sh build perception 
+bootstrap_lgsvl.sh 
+bridge.sh 
+bootstrap_lgsvl.sh stop
+exit 
+bootstrap_lgsvl.sh 
+exit 
+bootstrap_lgsvl.sh stop
+ex
+exit 
+ls
+./apollo.sh build
+sudo ./apollo.sh build
+exit 
+./apollo.sh build
+bash ./apollo.sh build
+sudo bash ./apollo.sh build
+ex
+exit 
+./apollo.sh build
+cd /apollo/.cache/
+ls
+exit 
+rm -rf /apollo/.cache/{bazel,build,repos}
+./apollo.sh config --noninteractive
+./apollo.sh build
+exit
+cyber_monitor
+exit
+./apollo.sh build
+bootstrap.sh 
+bridge.sh 
+bootstrap.sh stop
+exit
+cyber_monitor
+exit
+bootstrap.sh 
+bridge.sh 
+bootstrap.sh stop
+exit
+cyber_monitor
+exit
+bootstrap.sh 
+bridge.sh 
+bootstrap.sh stop
+exit
+bootstrap.sh 
+bridge.sh 
+exit
+cyber_monitor
+exit
+cyber_monitor
+exit 
+bootstrap.sh 
+bridge.sh 
+bootstrap.sh stop
+exit 
+bootstrap.sh 
+bridge.sh 
+bootstrap.sh stop
+exit 
+bootstrap.sh 
+bridge.sh 
+bootstrap.sh stop
+exit 
+bootstrap.sh 
+bridge.sh 
+bootstrap.sh stop
+bootstrap.sh 
+bootstrap.sh stop
+bootstrap.sh 
+bootstrap.sh stop
+bootstrap.sh 
+bridge.sh 
+bootstrap.sh stop
+bootstrap.sh 
+bridge.sh 
+bootstrap.sh stop
+exit 
+cyber_monitor
+exit 
+bootstrap.sh 
+bridge.sh 
+bootstrap.sh stop
+exit 
+bootstrap.sh 
+bridge.sh 
+bootstrap.sh stop
+bootstrap.sh 
+bridge.sh 
+exit 
+bootstrap.sh stop
+exit 
+cyber_monitor
+exit 
+bootstrap
+bootstrap.sh 
+bridge.sh 
+bootstrap.sh stop
+exit 
+cyber_monitor
+exit 
+bootstrap.sh 
+bridge.sh 
+bootstrap.sh stop
+bootstrap.sh 
+bridge.sh 
+exit 
+bootstrap.sh 
+exit 
